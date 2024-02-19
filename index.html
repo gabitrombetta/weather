@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <input class="input-cidade" type="text" placeholder="Pesquise pela cidade...">
+        <button onclick="clickOnButton()">
+            <img src="icons/search.svg" alt="Busca">
+        </button >
+        <div class="container-tempo">
+            <h2 class="cidade">Tempo em ...</h2>
+            <p class="temperatura">21°C</p>
+
+            <div class="container-info-tempo">
+                <img class="icone" src="https://openweathermap.org/img/wn/04n.png" alt=""> <p class="ceu">Nublado</p>
+            </div>
+
+            <div class="umidity-wind">
+                <img class="umidity" src="icons/umidity.svg" alt="">
+                <p class="umidade">70%</p>
+                <span class="barra"></span>
+                <img class="wind" src="icons/wind.svg" alt="">
+                <p class="vento">2.2km/h</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
